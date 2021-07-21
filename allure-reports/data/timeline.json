@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-TNIA2CIB",
+    "children" : [ {
+      "name" : "16228-MainThread",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "8875fb848c7df569",
+        "parentUid" : "8420c922ba839859cada7d8428584f52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625558636806,
+          "stop" : 1625558636806,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test3",
+        "uid" : "b8df1bf83f8e4564",
+        "parentUid" : "8420c922ba839859cada7d8428584f52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625558636780,
+          "stop" : 1625558636780,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test2",
+        "uid" : "f08970f4026bba12",
+        "parentUid" : "8420c922ba839859cada7d8428584f52",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625558636810,
+          "stop" : 1625558636810,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8420c922ba839859cada7d8428584f52"
+    } ],
+    "uid" : "b94bfc5daedbfcd8aaf53aff9c47ea92"
+  } ]
+}

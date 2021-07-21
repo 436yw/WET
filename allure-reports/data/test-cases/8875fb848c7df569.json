@@ -1,0 +1,92 @@
+{
+  "uid" : "8875fb848c7df569",
+  "name" : "test1",
+  "fullName" : "scripts.py_test.TestCase#test1",
+  "historyId" : "d8eab8f50b948e3b8abcb17112ce06bd",
+  "time" : {
+    "start" : 1625558636806,
+    "stop" : 1625558636806,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == '1'",
+  "statusTrace" : "self = <py_test.TestCase object at 0x000002F1838F5320>\n\n    def test1(self):\n        print(\"第一条用例\")\n>       assert 1=='1'\nE       AssertionError: assert 1 == '1'\n\nscripts\\py_test.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1625558636778,
+      "stop" : 1625558636779,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1625558636811,
+      "stop" : 1625558636811,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "py_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNIA2CIB"
+  }, {
+    "name" : "thread",
+    "value" : "16228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.py_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8875fb848c7df569.json",
+  "parameterValues" : [ ]
+}
