@@ -23,7 +23,7 @@ class TestCase:
         assert 1==1
     @pytest.mark.run(order=1)
     def test3(self):
-        print("第三条用例下午4点58")
+        print("第三条用例下午4点581")
         assert 1==2
 
 
